@@ -61,3 +61,4 @@ while tasks:
         for i in range(len(tasks)):
             if tasks[i][0] == "Machine 2":
                 tasks[i] = (tasks[i][0], 1, tasks[i][2], tasks[i][3])
+     nb_ensembles = min(nbMoteurs, nbRoues // 4)
