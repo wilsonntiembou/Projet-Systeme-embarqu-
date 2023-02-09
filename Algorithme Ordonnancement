@@ -1,0 +1,15 @@
+L'algorithme d'ordonnancement peut être implémenté en utilisant les étapes suivantes:
+
+1- Initialiser les variables pour le nombre de moteurs, de roues, d'huiles dans le réservoir, etc.
+
+2- Définir une liste de tâches qui incluent les opérations pour les pompes et les machines.
+
+3- Pour chaque tâche de la liste de tâches, vérifier si les règles permettent son exécution en comparant le nombre de roues et de moteurs, le niveau d'huile dans le réservoir, etc. Si les règles ne permettent pas l'exécution de la tâche, la tâche est rejetée.
+
+4- Si la tâche est permise, déterminer la tâche la plus prioritaire en comparant les règles pour les priorités des différentes tâches.
+
+5- Lancer la tâche la plus prioritaire.
+
+6- Mettre à jour les états des tâches en conséquence (en attente, bloquée, en cours d'exécution).
+
+7- Répéter les étapes 3 à 6 jusqu'à ce que toutes les tâches aient été exécutées ou qu'un arrêt soit déclenché.
